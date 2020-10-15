@@ -10,5 +10,4 @@ variables:
 steps:
 - task: UseDotNet@2
 - script: dotnet build --configuration $(buildConfiguration)
-$(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
