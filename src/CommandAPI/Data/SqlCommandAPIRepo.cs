@@ -50,6 +50,8 @@ namespace CommandAPI.Data
         public void UpdateCommand(Command cmd)
         {
             // We don't need to do anything here.
+            // The context will be updated by the mapping functions so
+            // all that is needed is the Save Changes function
         }
     }
 }
